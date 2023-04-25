@@ -10,7 +10,7 @@ namespace SongVePlaylistClassPractice
             {
                 Playlist playlist = new Playlist();
                 Song song1 = new Song("fdghf", "shdfgs", "Turkiye");
-                Song song2 = new Song("dfghdg", "asddfa");
+                Song song2 = new Song("drdrdrm", "dhgjhdjg", "Iran");
 
                 playlist.Add(song1);
                 playlist.Add(song2);
@@ -32,15 +32,28 @@ namespace SongVePlaylistClassPractice
             {
                 Songs = new List<Song>();
             }   
-            public void Add(Song songName)
+            public void Add(Song song)
             {
-                if (songName.Genre == "hip-hop" || songName.Country == "Iran")
+                for (int i=0, j = 1; i < Songs.Count; i++)
                 {
-                    throw new Exception("!");
-                        }
+                    if(song.Name == Songs[j-1].Name)
+                    {
+                        throw new Exception("Bu ad daxil edilib!!!!!!!!!");
+                    }
+                    else
+                    {
+                        Songs.Add(song);
+                    }
+                    j++;
+                }
+                
+                if (song.Genre == "hip-hop" || song.Country == "Iran")
+                {
+                    throw new Exception("Gnre ve Olke yaxsi deyil!");
+                }
                 else
                 {
-                    Songs.Add(songName);
+                    Songs.Add(song);
                 }
             }
 
@@ -70,9 +83,6 @@ namespace SongVePlaylistClassPractice
             {
 
             }
-
-
-
         }
     }
     
