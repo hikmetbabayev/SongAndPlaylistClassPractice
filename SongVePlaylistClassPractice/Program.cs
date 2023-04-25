@@ -9,12 +9,16 @@ namespace SongVePlaylistClassPractice
             try
             {
                 Playlist playlist = new Playlist();
-                Song song1 = new Song("fdghf", "shdfgs", "Turkiye");
-                Song song2 = new Song("drdrdrm", "dhgjhdjg", "Iran");
-
+                Song song1 = new Song("Baki", "shdfgs", "Turkiye");
+                Song song2 = new Song("Oten Gunler", "Hip-Hop", "ashfjsdh");
+                Song song3 = new Song("Oten Gun","saggddas","gywtbh");
                 playlist.Add(song1);
                 playlist.Add(song2);
-                Console.WriteLine(playlist.Songs[0].Genre);
+                playlist.Add(song3);
+
+                Console.WriteLine(playlist.Songs[0].Name);
+                Console.WriteLine(playlist.Songs[1].Name);
+                Console.WriteLine(playlist.Songs[2].Name);
             }        
             catch (Exception ex)
             {
@@ -40,14 +44,12 @@ namespace SongVePlaylistClassPractice
                     {
                         throw new Exception("Bu ad daxil edilib!!!!!!!!!");
                     }
-                    else
-                    {
-                        Songs.Add(song);
-                    }
+                    
                     j++;
                 }
                 
-                if (song.Genre == "hip-hop" || song.Country == "Iran")
+                
+                if (song.Genre == "Hip-Hop" || song.Country == "Iran")
                 {
                     throw new Exception("Gnre ve Olke yaxsi deyil!");
                 }
