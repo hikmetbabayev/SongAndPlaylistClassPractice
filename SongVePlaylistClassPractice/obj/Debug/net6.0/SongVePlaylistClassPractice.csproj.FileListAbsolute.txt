@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\SongVePlaylistClassPractice\bin\Debug\net6.0\SongVePlaylistClassPractice.exe
+C:\Users\User\Desktop\SongVePlaylistClassPractice\bin\Debug\net6.0\SongVePlaylistClassPractice.deps.json
+C:\Users\User\Desktop\SongVePlaylistClassPractice\bin\Debug\net6.0\SongVePlaylistClassPractice.runtimeconfig.json
+C:\Users\User\Desktop\SongVePlaylistClassPractice\bin\Debug\net6.0\SongVePlaylistClassPractice.dll
+C:\Users\User\Desktop\SongVePlaylistClassPractice\bin\Debug\net6.0\SongVePlaylistClassPractice.pdb
+C:\Users\User\Desktop\SongVePlaylistClassPractice\obj\Debug\net6.0\SongVePlaylistClassPractice.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\SongVePlaylistClassPractice\obj\Debug\net6.0\SongVePlaylistClassPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\SongVePlaylistClassPractice\obj\Debug\net6.0\SongVePlaylistClassPractice.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\SongVePlaylistClassPractice\obj\Debug\net6.0\SongVePlaylistClassPractice.AssemblyInfo.cs
+C:\Users\User\Desktop\SongVePlaylistClassPractice\obj\Debug\net6.0\SongVePlaylistClassPractice.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\SongVePlaylistClassPractice\obj\Debug\net6.0\SongVePlaylistClassPractice.dll
+C:\Users\User\Desktop\SongVePlaylistClassPractice\obj\Debug\net6.0\refint\SongVePlaylistClassPractice.dll
+C:\Users\User\Desktop\SongVePlaylistClassPractice\obj\Debug\net6.0\SongVePlaylistClassPractice.pdb
+C:\Users\User\Desktop\SongVePlaylistClassPractice\obj\Debug\net6.0\SongVePlaylistClassPractice.genruntimeconfig.cache
+C:\Users\User\Desktop\SongVePlaylistClassPractice\obj\Debug\net6.0\ref\SongVePlaylistClassPractice.dll
